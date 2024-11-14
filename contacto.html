@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpeg" alt="Logo del Proyecto" class="logo">
+        </div>
+    </header>
+
+
+    <section class="welcome-text">
+        <h2>Contacto</h2>
+        <p>Así como las aves vuelan alto, nosotros también queremos elevar nuestras ideas contigo. 
+    Estamos encantados de poder conectarnos y compartir contigo todo lo que tenemos para ofrecer. 
+    Haz clic en el botón y contacta con nosotros por WhatsApp, será un placer hablar contigo.</p>
+    </section>
+
+
+    <div class="whatsapp-container">
+        <button class="whatsapp-button" onclick="redirigirAwhatsapp()">¡Enviar Mensaje!</button>
+    </div>
+
+
+    <a href="inicio.html" class="back-button">Volar a inicio</a>
+
+
+    <footer>
+        <p>&copy; 2024 AVES, Instituto Tecnico Ambiental</p>
+    </footer>
+
+    <script>
+        function redirigirAwhatsapp() {
+            const boton = document.querySelector('.whatsapp-button');
+            
+
+            boton.classList.add('click');
+
+            setTimeout(function() {
+                window.open("https://wa.me/+573224753510?text=Hola", "_blank");
+            }, 1000); 
+        }
+    </script>
+
+</body>
+</html>

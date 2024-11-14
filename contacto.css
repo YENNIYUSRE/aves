@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafad9;
+    color: #efbe32;
+    margin: 0;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #BEDAF3;
+    color: white;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+
+.welcome-text {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffedba;
+}
+
+.welcome-text h2 {
+    font-size: 1.8em;
+}
+
+.welcome-text p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+.bird-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #1DA1F2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafad9;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-color: #BEDAF3;
+    color: white;
+    padding: 20px 0;
+}
+
+.welcome-text {
+    margin: 20px;
+}
+
+.whatsapp-container {
+    margin-top: 50px;
+}
+
+.whatsapp-button {
+    background-color: #efbe32;  
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.whatsapp-button.click {
+    animation: botonClick 1s ease-in-out;
+}
+
+
+@keyframes botonClick {
+    0% {
+        transform: scale(1);
+        background-color: #128C7E; 
+    }
+    50% {
+        transform: scale(0.9);
+        background-color: #075E54; 
+    }
+    100% {
+        transform: scale(1);
+        background-color: #25D366;  
+    }
+}
+
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #efbe32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    background-color: #cdf3ff;
+    color: #38a4d6;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
